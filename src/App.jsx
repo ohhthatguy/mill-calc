@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-    <div className="h-screen border-white p-2">
+    <div className="h-screen border-white p-2 ">
 
    
 
@@ -43,7 +43,14 @@ function App() {
 
       { dataArr ? <Input data={dataArr} setDataArr={setDataArr} /> : <div>enter number</div> }
 
+
+      <div className="text-xs text-teal-500 grid place-items-center">
+      | भास्कर स: मिल तथा फर्निचर उद्योगबाट निर्मित |
     </div>
+
+    </div>
+
+   
     </>
   )
 }

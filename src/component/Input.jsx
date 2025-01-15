@@ -91,7 +91,7 @@ const Input = ({data,setDataArr}) => {
             ))
             :
             <div>
-                enter number </div>
+                डाटा दिनुहोस्</div>
         }
 </div>
   
