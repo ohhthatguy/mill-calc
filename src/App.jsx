@@ -39,7 +39,7 @@ function App() {
 
    
 
-      <input type='number' onChange={(e)=> handleThree(e)} min={0} max={100} className='w-4/5 text-2xl border-2 border-white p-2' />
+      <input type='number' onChange={(e)=> handleThree(e)} min={0} max={100} placeholder="पहिले लम्बाइ र पछि चौडाइ राख्नुहोस्" className='placeholder:text-xs w-4/5 border-2 border-blue-300 text-2xl bg-black text-white p-2' />
 
       { dataArr ? <Input data={dataArr} setDataArr={setDataArr} /> : <div>enter number</div> }
 

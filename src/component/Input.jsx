@@ -79,10 +79,10 @@ const Input = ({data,setDataArr}) => {
                 <div id={index} className='w-fit  flex justify-around relative gap:2  mb-2'>
 
 
-                    <input type='number' className='text-center mr-1' min={0} max={100} value={e.length}/>
-                    <input type='number' className='text-center mr-1' min={0} max={100} value={e.breadth}/>
+                    <input type='number' className='text-center bg-black text-white mr-1' min={0} max={100} value={e.length}/>
+                    <input type='number' className='text-center bg-black text-white mr-1' min={0} max={100} value={e.breadth}/>
 
-                    <input type='number' className='text-center mr-1' min={0} max={100}  value={getValue(e.length, e.breadth)} readOnly />
+                    <input type='number' className='text-center bg-black text-white mr-1' min={0} max={100}  value={getValue(e.length, e.breadth)} readOnly />
                 
                     <button className='h-14 w-14 font-black text-black hover:scale-110 hover:bg-red-900 active:scale-90 bg-red-400' onClick={()=>deleteThis(e,index)} >X</button>
                 </div>
